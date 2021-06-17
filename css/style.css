@@ -1,0 +1,115 @@
+
+body{
+    background: rgba(0,0,0,0.7) url(../image/img.jpg)  ;
+    background-blend-mode: darke;
+    position: relative;
+}
+
+.box{
+    width: 22%;
+    height: 65vh;
+    border: 2px solid;
+    border-radius: 3%;
+    margin: auto;
+    margin-top: 134px;
+    background: inherit;
+    opacity: 0.9;
+
+}
+
+.button-box{
+    width:220px ;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #eaff008a;
+    border-radius: 30px ;
+    text-align: center;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position:absolute;
+    width: 110px ;
+    height: 100% ;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 30px ;
+    transition: 0.5s ;
+}
+
+.toggle-btn{
+    padding: 10px 30px ;
+    cursor: pointer ;
+    background: transparent ;
+    border: 0;
+    outline: none ;
+    position: relative;
+}
+
+.social-login{
+    height: 13vh;
+    margin-top: 433px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.fa {
+    font-size: 19px;
+    margin: 0px 19px;
+    cursor: pointer;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: -454px;
+    align-items: center;
+}
+
+.input-feild{
+    margin: 22px;
+    border: 2px solid burlywood;
+    border-radius: 11%;
+    padding: 4px;
+    width: 68% ;
+ 
+}
+
+.check-box{
+    margin: -2px ;
+    cursor: pointer ;
+}
+
+.submit-btn{
+    
+    margin-top: 13px;
+    background: linear-gradient(to right, #10ffaa,#0606ff);
+    border: 2px solid dodgerblue;
+    cursor: pointer;
+}
+
+#login{
+    left: 50px ;
+}
+
+/* .h-login{
+    display: none;
+} */
+
+.h-register{
+    display: none;
+}
+
+#register{
+    right: 450px ;
+    margin-top: -231px
+}

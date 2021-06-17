@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="box">
+        <div class="button-box">
+            <div id="btn">
+            </div>
+            <button type="button" class="toggle-btn" onclick="login()"> Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()"> Register </button>
+        </div>
+        <div class="social-login">
+            <div class="text-center"></div>
+            <div class="social-icons">
+                <i class="fa fa-facebook fa-fw"></i>
+                <i class="fa fa-google fa-fw"></i>
+                <i class="fa fa-instagram fa-fw"></i>
+            </div>
+        </div>
+        <div>
+            <form id="login" action="Input" class="input-group h-login" method="post">
+                <input type="text" class="input-feild" placeholder="User id">
+                <input type="text" class="input-feild" placeholder="Password">
+                <div class="check-box"><input type="checkbox" name="" id=""><span>Remember Password</span>
+                </div>
+                <button type="submit" class="submit-btn">Log in </button>
+            </form>
+
+            <form id="register" action="Input" class="input-group h-register" method="post">
+                <input type="text" class="input-feild" placeholder="User id">
+                <input type="text" class="input-feild" placeholder="Email">
+                <input type="text" class="input-feild" placeholder="Password">
+                <div class="check-box"><input type="checkbox" name="" id=""><span>I agree this terms and condition</span>
+                </div>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        x1 = document.querySelector('.h-login') ;
+        y1 = document.querySelector('.h-register') ;
+
+        function register() {
+            x.style.left = "-400px" ;
+            y.style.left = "50px" ;
+            z.style.left = "110px" ;
+        }
+
+        function login() {
+            x.style.left = "50px" ;
+            y.style.left = "450px" ;
+            z.style.left = "0px" ;
+        }
+
+        z.addEventListener('click', ()=> {
+            x.classList.toggle('h-login') ;
+            y.classList.toggle('h-register') ;
+            
+        })
+
+    </script>
+    
+    
+</body>
+</html>
