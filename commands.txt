@@ -1,9 +1,23 @@
-git config --global user.name prateek 
-git config --global user.email pandeyprateek108@gmail .com 
-git init 
-git add .
-git commit -m "Incial commit"
-git status  #just to see
+
+Go to project folder:
+
+Git config --global user.name prateek 
+Git config --global user.email pandeyprateek108@gmail .com 
+Git init 
+Git add .
+Git commit -m "Incial commit"
+Git status  #just to see
 Ssh-keygen -t rsa -b 4096 -C "Email" #to get ssh key (onre time only) 
-git remote add origin <ssh url>
-git push origin master 
+Pub "path of ssh key" (to get ssh key)
+Git remote add origin <ssh url>
+Git push origin master 
+
+
+Each time to add changes:
+
+Git add .
+Git commit -m "Incial commit"
+Git push origin master 
+
+
+
