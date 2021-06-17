@@ -1,0 +1,9 @@
+git config --global user.name prateek 
+git config --global user.email pandeyprateek108@gmail .com 
+git init 
+git add .
+git commit -m "Incial commit"
+git status  #just to see
+Ssh-keygen -t rsa -b 4096 -C "Email" #to get ssh key (onre time only) 
+git remote add origin <ssh url>
+git push origin master 
