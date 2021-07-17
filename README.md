@@ -1,2 +1,2 @@
-# Save-f-Credentials
-credentials storing application and using easily in any device
+# Save-f-Credentials app
+credentials storing application and using it easily in any device with proper safety features. 
